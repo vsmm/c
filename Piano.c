@@ -4,7 +4,7 @@
 //Pin 11 on Raspberry Pi corresponds to BCM GPIO 17 and wiringPi pin 0
 #define BeepPin 0
 
-int esc = 1
+int esc = 1;
 char notes[7] = { 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C' }; // a space represents a rest
 
 
