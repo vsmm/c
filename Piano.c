@@ -5,9 +5,8 @@
 #define BeepPin 0
 
 int esc = 1
-char notes[] = { 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C' }; // a space represents a rest
-int beats[] = { 1 };
-int tempo = 300;
+char notes[7] = { 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C' }; // a space represents a rest
+
 
 void playTone(int tone, int duration) {
   for (long i = 0; i < duration * 1000L; i += tone * 2) {
@@ -44,7 +43,7 @@ int main(void)
   //Prepare GPIO0
   pinMode(0, OUTPUT);
   //Play the Imperial March
-  switch (esc)
+  /*switch (esc)
   {
     case 0:
         playNote(notes[0], 300);
@@ -55,6 +54,7 @@ int main(void)
     case 2:
         playNote(notes[2], 300);
         break;
-  }
+  }*/
+  playNote(notes[0], 300);
   return 0;
 }
