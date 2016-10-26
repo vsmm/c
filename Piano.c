@@ -32,10 +32,10 @@ int main(void)
   switch (esc)
   {
     case 0:
-        playTone(1915, 500);
+        playTone(1915, 100);
         break;
     case 1:
-        playTone(1700, 500);
+        playTone(1700, 100);
         break;
     case 2:
         playTone(1519, 500);
