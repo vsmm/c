@@ -56,6 +56,6 @@ int main(void)
         break;
   }*/
   //playNote(notes[0], 300);
-  playTone(tones[1], 300);
+  playTone(1915, 300);
   return 0;
 }
