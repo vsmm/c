@@ -27,7 +27,7 @@ int main(void)
   pinMode(0, OUTPUT);
   //Play the Imperial March
   printf("Ingresa tono a escuchar 0 = DO, 1 = RE, 2 = MI\n");
-  scanf("%s\n", &esc);
+  scanf("%d", &esc);
   switch (esc)
   {
     case 0:
