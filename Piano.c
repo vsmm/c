@@ -4,19 +4,7 @@
 //Pin 11 on Raspberry Pi corresponds to BCM GPIO 17 and wiringPi pin 0
 #define BeepPin 0
 
-//FREQUENCIES
-#define c 1915
-#define d 1700
-#define e 1519
-#define f 1432
-#define g 1275
-#define a 1136
-#define b 1014
-#define c 956
-
-
 int esc = 1
-int length = 1; // the number of notes
 char notes[] = { 'c', 'd', 'e', 'f', 'g', 'a', 'b', 'C' }; // a space represents a rest
 int beats[] = { 1 };
 int tempo = 300;
