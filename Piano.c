@@ -26,8 +26,8 @@ int main(void)
   //Prepare GPIO0
   pinMode(0, OUTPUT);
   //Play the Imperial March
-  while(esc != 4){
-  printf("Ingresa tono a escuchar 0 = DO, 1 = RE, 2 = MI, 3 = Fa, 4 = salir\n");
+  while(esc != 7){
+  printf("Ingresa tono a escuchar 0 = DO, 1 = RE, 2 = MI, 3 = Fa, 4 = Sol, 5 = La, 6 = Si, 7 = salir\n");
   scanf("%d", &esc);
   switch (esc)
   {
@@ -44,6 +44,15 @@ int main(void)
         playTone(1432, 500);
         break;
     case 4:
+        playTone(1432, 500);
+        break;
+    case 5:
+        playTone(1432, 500);
+        break;
+    case 6:
+        playTone(1432, 500);
+        break;
+    case 7:
         break;
   }
 }
