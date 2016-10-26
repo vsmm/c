@@ -44,13 +44,13 @@ int main(void)
         playTone(1432, 500);
         break;
     case 4:
-        playTone(1432, 500);
+        playTone(1275, 500);
         break;
     case 5:
-        playTone(1432, 500);
+        playTone(1136, 500);
         break;
     case 6:
-        playTone(1432, 500);
+        playTone(1014, 500);
         break;
     case 7:
         break;
